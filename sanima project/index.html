@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <div class="container">
+        <div id="title">Registration</div>
+        <form action="event.preventDefault(0)">
+            <div id="user-details">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter your name" required>
+                <span class="details">Username</span>
+                <input type="text" placeholder="Enter your username" required>
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter your number" required>
+            </div>
+        </form>
+    </div> -->
+
+    <div id="container">
+        <h1>Sign Up:</h1>
+        <div class="title">Registration</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input id="fullname" type="text" placeholder="Enter your name" required>
+                        <span id="validation1"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input id="username" type="text" placeholder="Enter your username" required>
+                        <span id="validation2"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input id="email" type="email" placeholder="Enter your email" required>
+                        <span id="validation3"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input id="phone" type="number" placeholder="Enter your number" required>
+                        <span id="validation4"></span>
+                    </div class="input-box">
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input id="password" type="password" placeholder="Enter your password" required>
+                        <span id="validation5"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Confirm Password</span>
+                        <input id="cpassword" type="password" placeholder="Confirm your password" required>
+                        <span id="validation6"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Address</span>
+                        <input id="address" type="text" placeholder="Enter your address" required>
+                        <span id="validation7"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Postal Code</span>
+                        <input id="postalcode" type="number" placeholder="Enter your postalcode" required>
+                        <span id="validation8"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">DOB</span>
+                        <input id="dateofbirth" type="" placeholder="Enter date of birth 00-00-0000" required>
+                        <span id="validation9"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Profile Picture</span>
+                        <input id="picture" type="file" placeholder="" required>
+                        <span id="validation10"></span>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Signup" onClick="openpage()">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- ===================================================================== login ============================================================ -->
+
+    <div id="popup" class="show">
+        <img src="https://th.bing.com/th/id/R.0f44aae56f9ccbf76d8d8c87f1beffed?rik=emyjWWn5o8ynsQ&riu=http%3a%2f%2fwww.pngplay
+        .com%2fwp-content%2fup
+        loads%2f2%2fTick-Transparent-Image.png&ehk=qD53jm0IjlWrF0GI3gNoS3amnN4rljeyyLVIdt%2fL7E8%3d&risl=&pid=ImgRaw&r=0"
+            alt="Right" width="60px" height="60px">
+
+        <h2 id="heading">Successfully Created Account:</h2><br>
+        <span id="modalValidationemail"></span><br>
+        <input type="email" placeholder="Email" name="email" class="input" id="cheakEmail"><br><br>
+        <span id="modalValidationpass"></span>
+        <input type="password" placeholder="Password" class="input" id="cheakPassword"><br>
+        <p>You don't have an account plz sign up <br> facebook/google:</p><br>
+        <a href="https://www.facebook.com/login.php">
+            <button class="fb"> facebook</button></a>
+        <a href="https://www.google.com.pk"><button class="Google">Google</button></a><br><br>
+        <button type="ok" id="ok" onClick="closepage()">OK</button>
+    </div>
+    </div>
+
+    <!-- =====script====== -->
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+/* *{
+    background-color: black;
+} */
+#boddy {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.nav-item {
+    margin: 0px 40px;
+}
+
+#logo {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(148, 224, 34);
+}
+
+#navbarSupportedContent {
+    font-size: 20px;
+}
+
+.container-fluid {
+    background: linear-gradient(125deg, #dfdfdf, #dfdfdf, #dfdfdf);
+}
+
+
+
+
+/* ================================== cards ============================================= */
+
+#card-line1 {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#card-line2 {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card-body {
+    height: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+
+}
+
+.card-body p {
+
+    color: white;
+
+}
+
+#seat-div1,
+#seat-div2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#heading {
+    color: #fff;
+}
+
+
+#popup {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    left: 36%;
+    display: none;
+    background-color: black;
+    padding: 50px;
+    border: 2px solid red;
+}
+
+#popup .input {
+    font-size: 24px;
+    padding: 7px 5px;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+#popup #buy {
+    font-size: 15px;
+    background-color: black;
+    color: red;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+#seat1,
+#seat2,
+#seat3,
+#seat4,
+#seat5,
+#seat6,
+#seat7,
+#seat8,
+#seat9,
+#seat10,
+#seat11,
+#seat12,
+#seat13,
+#seat14,
+#seat15,
+#seat16,
+#seat17,
+#seat18,
+#seat19,
+#seat20 {
+    background-color: white;
+    margin: 10px 10px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#seatheading {
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width:300px) {
+    #logo {
+        font-size: 20px;
+    }
+
+    #cards {
+        display: flex;
+        justify-content: space-around;
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width:250px) {
+    #logo {
+        display: none;
+    }
+
+    #cards {
+
+        font-size: 3px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .card {
+        margin: 5px;
+    }
+}
